@@ -39,6 +39,11 @@ puts "" << 104 << 101 << 108 << 108 << 111
 ---
 <span class="menu-title" style="display: none">Symbols 3</span>
 
+`$> == $stdout`
+
+---
+<span class="menu-title" style="display: none">Symbols 4</span>
+
 ```
 $> << ("" << 104 << 101 << 108 << 108 << 111)
 
@@ -46,7 +51,7 @@ $> << ("" << 104 << 101 << 108 << 108 << 111)
 ```
 
 ---
-<span class="menu-title" style="display: none">Symbols 4</span>
+<span class="menu-title" style="display: none">Symbols 5</span>
 
 ```
 "@" =~ /$/
@@ -55,7 +60,7 @@ $> << ("" << 104 << 101 << 108 << 108 << 111)
 ```
 
 ---
-<span class="menu-title" style="display: none">Symbols 5</span>
+<span class="menu-title" style="display: none">Symbols 6</span>
 
 ```
 "@@" =~ /$/
@@ -64,7 +69,7 @@ $> << ("" << 104 << 101 << 108 << 108 << 111)
 ```
 
 ---
-<span class="menu-title" style="display: none">Symbols 6</span>
+<span class="menu-title" style="display: none">Symbols 7</span>
 
 ```
 _ = ("@" =~ /$/)
