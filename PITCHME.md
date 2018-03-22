@@ -189,16 +189,15 @@ puts "hello"
 
 ```
 class Greeter
-  class << self
-    def self.speak
-      puts 'hello'
-    end
+  def speak
+    puts 'hello'
   end
 end
 
-Greeter.speak
+greeter = Greeter.new
+greeter.speak
 => hello
-Greeter.speak
+greeter.speak
 => hello
 ```
 
@@ -207,19 +206,18 @@ Greeter.speak
 
 ```
 class Greeter
-  class << self
+  def speak
+    puts 'hello'
     def speak
-      puts 'hello'
-      def speak
-        puts 'goodbye'
-      end
+      puts 'goodbye'
     end
   end
 end
 
-Greeter.speak
+greeter = Greeter.new
+greeter.speak
 => hello
-Greeter.speak
+greeter.speak
 => goodbye
 ```
 
