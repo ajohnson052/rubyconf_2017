@@ -86,8 +86,8 @@ Before you get too pleased with yourself... Are you scaring away other developer
 ---
 <span class="menu-title" style="display: none">Readability Over Tricks</span>
 
-#### Choose readability over
-#### cool Ruby tricks
+#### Choose well-known methods
+#### over cool Ruby tricks
 
 ---
 <span class="menu-title" style="display: none">No Symbols 1</span>
@@ -235,6 +235,16 @@ Cool, you fixed that pretty fast... But your coworkers are in for some surprises
 “Indeed, the ratio of time spent reading versus writing is well over 10 to 1. We are constantly reading old code as part of the effort to write new code. ...[Therefore,] making it easy to read makes it easier to write.”
 
 --  Robert C. Martin, Clean Code
+
+---
+<span class="menu-title" style="display: none">Summary</span>
+
+### To promote readability:
+
+<br>
+* Choose well-known methods over cool Ruby tricks
+* Implement new patterns with care
+* Consider the consequences of quick bug fixes
 
 ---
 <span class="menu-title" style="display: none">Quine Time?</span>
