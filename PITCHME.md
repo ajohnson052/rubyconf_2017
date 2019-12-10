@@ -1,6 +1,6 @@
 <span class="menu-title" style="display: none">Title</span>
 
-# Don't Write Clever Code
+# Clever Code
 
 ---
 <span class="menu-title" style="display: none">Introduction 1</span>
@@ -19,8 +19,7 @@ Types and Ruby Programming Language
 ---
 <span class="menu-title" style="display: none">Introduction 2</span>
 
-Premise:
----
+### Premise:
 A team is building a greeter that will print "hello" to the command line
 
 ---
@@ -35,8 +34,7 @@ puts "hello"
 ---
 <span class="menu-title" style="display: none">Persona 1</span>
 
-Persona 1:
----
+### Persona 1:
 
 * has a deep understanding of Ruby
 * sees many possibilities in such a flexible language
@@ -124,8 +122,7 @@ Before you get too pleased with yourself... Are you scaring away other developer
 ---
 <span class="menu-title" style="display: none">Persona 2</span>
 
-Persona 2:
----
+### Persona 2:
 
 * keeps up with the programming blogs
 * knows about popular patterns and trends
@@ -217,8 +214,7 @@ Before you jump on that bandwagon... What will be understood by the team?
 ---
 <span class="menu-title" style="display: none">Persona 3</span>
 
-Persona 3:
----
+### Persona 3:
 
 * proactive about production monitoring
 * takes pride in making speedy hot fixes
@@ -302,9 +298,9 @@ Cool, you fixed that pretty fast... But your coworkers are in for some surprises
 ---
 <span class="menu-title" style="display: none">Deletable?</span>
 
-#### To promote readability, ask yourself:
+#### To promote readability:
 
-How easy will it be to delete my code?
+Consider how easy it will be to delete your code    
 
 ---
 <span class="menu-title" style="display: none">Conclusion</span>
