@@ -3,7 +3,7 @@
 # Don't Write Clever Code
 
 ---
-<span class="menu-title" style="display: none">Introduction</span>
+<span class="menu-title" style="display: none">Introduction 1</span>
 
 Shout outs:
 <br>
@@ -15,6 +15,33 @@ Esoteric, Obfuscated, Artistic Programming in Ruby
 
 ### Soutaro Matsumoto
 Types and Ruby Programming Language
+
+---
+<span class="menu-title" style="display: none">Introduction 2</span>
+
+Premise:
+---
+A team is building a greeter that will print "hello" to the command line
+
+---
+<span class="menu-title" style="display: none">Introduction 3</span>
+
+```ruby
+puts "hello"
+
+=> hello
+```
+
+---
+<span class="menu-title" style="display: none">Persona 1</span>
+
+Persona 1:
+---
+
+* has a deep understanding of Ruby
+* sees many possibilities in such a flexible language
+* comfortable with complex operators
+* recently realized that the Greeter could be written using only symbols 
 
 ---
 <span class="menu-title" style="display: none">Symbols 1</span>
@@ -91,8 +118,19 @@ Before you get too pleased with yourself... Are you scaring away other developer
 ---
 <span class="menu-title" style="display: none">Readability Over Tricks</span>
 
-#### Choose well-known methods
-#### over cool Ruby tricks
+#### Embrace convention and
+#### use existing patterns
+
+---
+<span class="menu-title" style="display: none">Persona 2</span>
+
+Persona 2:
+---
+
+* keeps up with the programming blogs
+* knows about popular patterns and trends
+* annoyed with another coworker's insistence on using symbols 
+* heard on a podcast that Rubyists should avoid using symbols
 
 ---
 <span class="menu-title" style="display: none">No Symbols 1</span>
@@ -177,6 +215,17 @@ Before you jump on that bandwagon... What will be understood by the team?
 #### with care
 
 ---
+<span class="menu-title" style="display: none">Persona 3</span>
+
+Persona 3:
+---
+
+* proactive about production monitoring
+* takes pride in making speedy hot fixes
+* tired of the debates about design patterns and coding style 
+* noticed the Greeter never says "goodbye"
+
+---
 <span class="menu-title" style="display: none">Hello, Goodbye 1</span>
 
 ```ruby
@@ -244,22 +293,26 @@ Cool, you fixed that pretty fast... But your coworkers are in for some surprises
 ---
 <span class="menu-title" style="display: none">Summary</span>
 
-### To promote readability:
+#### To promote readability:
 
-<br>
-* Choose well-known methods over cool Ruby tricks
+* Embrace conventions and use existing patterns
 * Implement new patterns with care
 * Consider the consequences of quick bug fixes
 
 ---
-<span class="menu-title" style="display: none">Quine Time?</span>
+<span class="menu-title" style="display: none">Deletable?</span>
 
-#### Quine Time?
+#### To promote readability, ask yourself:
 
-<br><br>
-```ruby
-eval s=%q(
-  s="eval s=%q(#{s})"
-  puts s
-)
-```
+How easy will it be to delete my code?
+
+---
+<span class="menu-title" style="display: none">Conclusion</span>
+
+### We need all of these people on our team!
+
+The one keeping up with the latest blogs, the one pushing quick fixes, and the 
+one with a deep understanding of the Ruby language all contribute to the team's 
+success. They just need to adopt a team mentality!
+
+---
