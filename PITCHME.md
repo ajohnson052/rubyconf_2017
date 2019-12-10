@@ -20,7 +20,7 @@ Types and Ruby Programming Language
 <span class="menu-title" style="display: none">Introduction 2</span>
 
 ### Premise:
-A team is building a greeter that will print "hello" to the command line
+A team is building a Greeter that will print "hello" to the command line
 
 ---
 <span class="menu-title" style="display: none">Introduction 3</span>
@@ -63,14 +63,16 @@ puts "" << 104 << 101 << 108 << 108 << 111
 <span class="menu-title" style="display: none">Symbols 3</span>
 
 ```ruby
-$> == $stdout
+$stdout.puts "" << 104 << 101 << 108 << 108 << 111
+
+=> hello
 ```
 
 ---
 <span class="menu-title" style="display: none">Symbols 4</span>
 
 ```ruby
-$> << ("" << 104 << 101 << 108 << 108 << 111)
+$stdout << ("" << 104 << 101 << 108 << 108 << 111)
 
 => hello
 ```
@@ -79,13 +81,22 @@ $> << ("" << 104 << 101 << 108 << 108 << 111)
 <span class="menu-title" style="display: none">Symbols 5</span>
 
 ```ruby
+$> << ("" << 104 << 101 << 108 << 108 << 111)
+
+=> hello
+```
+
+---
+<span class="menu-title" style="display: none">Symbols 6</span>
+
+```ruby
 "@" =~ /$/
 
 => 1
 ```
 
 ---
-<span class="menu-title" style="display: none">Symbols 6</span>
+<span class="menu-title" style="display: none">Symbols 7</span>
 
 ```ruby
 "@@" =~ /$/
@@ -94,16 +105,16 @@ $> << ("" << 104 << 101 << 108 << 108 << 111)
 ```
 
 ---
-<span class="menu-title" style="display: none">Symbols 7</span>
+<span class="menu-title" style="display: none">Symbols 8</span>
 
 ```ruby
 _ = ("@" =~ /$/)
 __ = ("@@" =~ /$/)
 $> << ("" << ((__*__+_)*__)**__+__+__ <<
-                ((__*__+_)*__)**__+_ <<
-                ((__*__+_)*__)**__+__*__*__ <<
-                ((__*__+_)*__)**__+__*__*__ <<
-                ((__*__+_)*__)**__+__*__*__+__+_)
+             ((__*__+_)*__)**__+_ <<
+             ((__*__+_)*__)**__+__*__*__ <<
+             ((__*__+_)*__)**__+__*__*__ <<
+             ((__*__+_)*__)**__+__*__*__+__+_)
 
 => hello
 ```
@@ -111,7 +122,11 @@ $> << ("" << ((__*__+_)*__)**__+__+__ <<
 ---
 <span class="menu-title" style="display: none">Readable?</span>
 
-Before you get too pleased with yourself... Are you scaring away other developers?
+Impressive!
+
+<br> 
+
+But is it readable?
 
 ---
 <span class="menu-title" style="display: none">Readability Over Tricks</span>
@@ -203,7 +218,11 @@ for x in inspect do end
 ---
 <span class="menu-title" style="display: none">Readable?</span>
 
-Before you jump on that bandwagon... What will be understood by the team?
+Phew! No more symbols!
+
+<br>
+
+But is it readable?
 
 ---
 <span class="menu-title" style="display: none">Readability Over Trends</span>
@@ -271,7 +290,11 @@ greeter.speak
 ---
 <span class="menu-title" style="display: none">Readable?</span>
 
-Cool, you fixed that pretty fast... But your coworkers are in for some surprises
+Clever!
+
+<br>
+
+But is it readable? 
 
 ---
 <span class="menu-title" style="display: none">Readability Over Quick Fixes</span>
