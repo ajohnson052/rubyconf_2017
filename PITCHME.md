@@ -5,18 +5,16 @@
 ---
 <span class="menu-title" style="display: none">Introduction</span>
 
-Shout outs to
-<br><br>
+Shout outs:
+<br>
 
-#### Esoteric, Obfuscated, Artistic
-#### Programming in Ruby
-
-<span class="aside">by Yusuke Endoh</span>
+### Yusuke Endoh
+Esoteric, Obfuscated, Artistic Programming in Ruby
 
 <br>
-#### Types and Ruby Programming Language
 
-<span class="aside">by Soutaro Matsumoto</span>
+### Soutaro Matsumoto
+Types and Ruby Programming Language
 
 ---
 <span class="menu-title" style="display: none">Symbols 1</span>
