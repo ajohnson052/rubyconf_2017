@@ -21,7 +21,7 @@ Shout outs to
 ---
 <span class="menu-title" style="display: none">Symbols 1</span>
 
-```
+```ruby
 puts "hello"
 
 => hello
@@ -30,7 +30,7 @@ puts "hello"
 ---
 <span class="menu-title" style="display: none">Symbols 2</span>
 
-```
+```ruby
 puts "" << 104 << 101 << 108 << 108 << 111
 
 => hello
@@ -39,12 +39,14 @@ puts "" << 104 << 101 << 108 << 108 << 111
 ---
 <span class="menu-title" style="display: none">Symbols 3</span>
 
-`$> == $stdout`
+```ruby
+$> == $stdout
+```
 
 ---
 <span class="menu-title" style="display: none">Symbols 4</span>
 
-```
+```ruby
 $> << ("" << 104 << 101 << 108 << 108 << 111)
 
 => hello
@@ -53,7 +55,7 @@ $> << ("" << 104 << 101 << 108 << 108 << 111)
 ---
 <span class="menu-title" style="display: none">Symbols 5</span>
 
-```
+```ruby
 "@" =~ /$/
 
 => 1
@@ -62,7 +64,7 @@ $> << ("" << 104 << 101 << 108 << 108 << 111)
 ---
 <span class="menu-title" style="display: none">Symbols 6</span>
 
-```
+```ruby
 "@@" =~ /$/
 
 => 2
@@ -71,7 +73,7 @@ $> << ("" << 104 << 101 << 108 << 108 << 111)
 ---
 <span class="menu-title" style="display: none">Symbols 7</span>
 
-```
+```ruby
 _ = ("@" =~ /$/)
 __ = ("@@" =~ /$/)
 $> << ("" << ((__*__+_)*__)**__+__+__ <<
@@ -97,7 +99,7 @@ Before you get too pleased with yourself... Are you scaring away other developer
 ---
 <span class="menu-title" style="display: none">No Symbols 1</span>
 
-```
+```ruby
 puts "hello"
 
 => hello
@@ -106,7 +108,9 @@ puts "hello"
 ---
 <span class="menu-title" style="display: none">No Symbols 2</span>
 
-`inspect`
+```ruby
+inspect
+```
 
 <br>
 Returns a string containing a human-readable representation of obj
@@ -114,7 +118,7 @@ Returns a string containing a human-readable representation of obj
 ---
 <span class="menu-title" style="display: none">No Symbols 3</span>
 
-```
+```ruby
 inspect
 
 => "main"
@@ -123,7 +127,7 @@ inspect
 ---
 <span class="menu-title" style="display: none">No Symbols 4</span>
 
-```
+```ruby
 puts inspect.clear
             .concat(104)
             .concat(101)
@@ -137,7 +141,7 @@ puts inspect.clear
 ---
 <span class="menu-title" style="display: none">No Symbols 5</span>
 
-```
+```ruby
 for x in inspect do end
 
 => NoMethodError: undefined method 'each' for "main":String
@@ -146,7 +150,7 @@ for x in inspect do end
 ---
 <span class="menu-title" style="display: none">No Symbols 6</span>
 
-```
+```ruby
 class String
   def each
     clear
@@ -177,7 +181,7 @@ Before you jump on that bandwagon... What will be understood by the team?
 ---
 <span class="menu-title" style="display: none">Hello, Goodbye 1</span>
 
-```
+```ruby
 puts "hello"
 
 => hello
@@ -187,7 +191,7 @@ puts "hello"
 <span class="menu-title" style="display: none">Hello, Goodbye 2</span>
 
 
-```
+```ruby
 class Greeter
   def speak
     puts 'hello'
@@ -204,7 +208,7 @@ greeter.speak
 ---
 <span class="menu-title" style="display: none">Hello, Goodbye 3</span>
 
-```
+```ruby
 class Greeter
   def speak
     puts 'hello'
@@ -255,7 +259,7 @@ Cool, you fixed that pretty fast... But your coworkers are in for some surprises
 #### Quine Time?
 
 <br><br>
-```
+```ruby
 eval s=%q(
   s="eval s=%q(#{s})"
   puts s
