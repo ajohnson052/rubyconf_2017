@@ -24,8 +24,7 @@ Let's start with looking at a team that writes really clever code
 ---
 <span class="menu-title" style="display: none">Introduction 3</span>
 
-### Premise:
-A team is building a command line tool that has a Greeter class
+This team is building a command line tool that has a Greeter class
 
 ---
 <span class="menu-title" style="display: none">Introduction 4</span>
@@ -37,9 +36,14 @@ puts "hello"
 ```
 
 ---
+<span class="menu-title" style="display: none">Introduction 5</span>
+
+Now let's meet the team!
+
+---
 <span class="menu-title" style="display: none">Persona 1</span>
 
-### Persona 1:
+### Person 1:
 
 * has a deep understanding of Ruby
 * sees many possibilities in such a flexible language
@@ -142,7 +146,7 @@ But is it readable?
 ---
 <span class="menu-title" style="display: none">Persona 2</span>
 
-### Persona 2:
+### Person 2:
 
 * keeps up with the programming blogs
 * knows about popular patterns and trends
@@ -238,7 +242,7 @@ But will anyone else understand this code?
 ---
 <span class="menu-title" style="display: none">Persona 3</span>
 
-### Persona 3:
+### Person 3:
 
 * proactive about production monitoring
 * takes pride in making speedy hot fixes
@@ -349,7 +353,7 @@ success. They just need to adopt a team mentality!
 * More Ruby tricks (and some quines)
     * http://confreaks.tv/videos/rubyconf2017-esoteric-obfuscated-artistic-programming-in-ruby
 * More on code quality
-    * Practical Object Oriented Programming in Ruby, Sandi Metz
+    * Practical Object-Oriented Design in Ruby, Sandi Metz
     * Clean Code, Robert Martin
 
 ---
