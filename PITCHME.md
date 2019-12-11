@@ -19,17 +19,13 @@ Types and Ruby Programming Language
 ---
 <span class="menu-title" style="display: none">Introduction 2</span>
 
-### Premise:
-A team is building a Greeter that will print "hello" to the command line
+Let's start with looking at a team that writes really clever code
 
 ---
 <span class="menu-title" style="display: none">Introduction 3</span>
 
-```ruby
-puts "hello"
-
-=> hello
-```
+### Premise:
+A team is building a command line tool that has a Greeter class
 
 ---
 <span class="menu-title" style="display: none">Persona 1</span>
@@ -222,7 +218,7 @@ Phew! No more symbols!
 
 <br>
 
-But is it readable?
+But will anyone else understand this code?
 
 ---
 <span class="menu-title" style="display: none">Readability Over Trends</span>
@@ -294,7 +290,7 @@ Clever!
 
 <br>
 
-But is it readable? 
+But will future self appreciate this?
 
 ---
 <span class="menu-title" style="display: none">Readability Over Quick Fixes</span>
@@ -310,7 +306,7 @@ But is it readable?
 --  Robert C. Martin, Clean Code
 
 ---
-<span class="menu-title" style="display: none">Summary</span>
+<span class="menu-title" style="display: none">Promote Readability 1</span>
 
 #### To promote readability:
 
@@ -319,11 +315,13 @@ But is it readable?
 * Consider the consequences of quick bug fixes
 
 ---
-<span class="menu-title" style="display: none">Deletable?</span>
+<span class="menu-title" style="display: none">Promote Readability 2</span>
 
 #### To promote readability:
 
-Consider how easy it will be to delete your code    
+* Keep things small - classes, methods, parameter lists
+* Focus on descriptive, accurate naming
+* Consider how easy it will be to delete your code    
 
 ---
 <span class="menu-title" style="display: none">Conclusion</span>
@@ -333,5 +331,16 @@ Consider how easy it will be to delete your code
 The one keeping up with the latest blogs, the one pushing quick fixes, and the 
 one with a deep understanding of the Ruby language all contribute to the team's 
 success. They just need to adopt a team mentality!
+
+---
+<span class="menu-title" style="display: none">Resources</span>
+
+### Additional Resources
+
+* More Ruby tricks (and some quines)
+    * http://confreaks.tv/videos/rubyconf2017-esoteric-obfuscated-artistic-programming-in-ruby
+* More on code quality
+    * Practical Object Oriented Programming in Ruby, Sandi Metz
+    * Clean Code, Robert Martin
 
 ---
