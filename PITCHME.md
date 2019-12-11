@@ -28,6 +28,15 @@ Let's start with looking at a team that writes really clever code
 A team is building a command line tool that has a Greeter class
 
 ---
+<span class="menu-title" style="display: none">Introduction 4</span>
+
+```ruby
+puts "hello"
+
+=> hello
+```
+
+---
 <span class="menu-title" style="display: none">Persona 1</span>
 
 ### Persona 1:
